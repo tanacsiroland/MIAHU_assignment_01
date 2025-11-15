@@ -13,7 +13,7 @@ class TestCalculatorUnit(unittest.TestCase):
         self.assertEqual(self.calc.multiply(4, 5), 20)
 
     def test_show_info(self):
-        test_info = Calculator.show_info()
+        test_info = self.calc.show_info()
         assert_type(test_info, str)
 
 if __name__ == '__main__':
