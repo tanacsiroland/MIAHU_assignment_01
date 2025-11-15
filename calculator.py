@@ -9,3 +9,7 @@ class Calculator:
         # Adds a + b, then multiplies result by c
         sum_result = self.add(a, b)
         return self.multiply(sum_result, c)
+    
+    def show_info(self):
+        info = "This is a really dumb example code, in order to demostrate that i can setup Github Actions!"
+        return info
